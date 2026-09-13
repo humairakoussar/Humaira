@@ -4,6 +4,7 @@ export function generateStaticBootstrapHtml(): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="tz6Ael1-r1ysr8zx3qYcXFPdlo-EmrPcn0fufuGzlXk">
   <title>Humaira Kousar | Graphic Designer & Brand Identity</title>
   <meta name="description" content="Official portfolio of Humaira Kousar - Graphic Designer, Brand Identity Specialist & Illustrator.">
   <!-- Bootstrap 5 CSS -->
@@ -300,8 +301,9 @@ export function generateStaticBootstrapHtml(): string {
         &copy; 2025 Humaira Kousar. Designed with color theory & vector precision.
       </div>
       <div class="d-flex gap-3">
-        <a href="https://github.com/humairakoussar" target="_blank" class="text-white text-decoration-none"><i class="bi bi-github fs-5"></i></a>
-        <a href="mailto:humairakousar.design@gmail.com" class="text-white text-decoration-none"><i class="bi bi-envelope fs-5"></i></a>
+        <a href="https://github.com/humairakoussar" target="_blank" class="text-white text-decoration-none" title="GitHub"><i class="bi bi-github fs-5"></i></a>
+        <a href="https://www.linkedin.com/in/humaira-kousar-50b73b436/" target="_blank" class="text-white text-decoration-none" title="LinkedIn"><i class="bi bi-linkedin fs-5"></i></a>
+        <a href="mailto:humairakousar.design@gmail.com" class="text-white text-decoration-none" title="Email"><i class="bi bi-envelope fs-5"></i></a>
       </div>
     </div>
   </footer>

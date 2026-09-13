@@ -14,7 +14,7 @@ export const HUMAIRA_PROFILE = {
   github: 'https://github.com/humairakoussar',
   behance: 'https://www.behance.net/humairakoussar',
   dribbble: 'https://dribbble.com/humairakoussar',
-  linkedin: 'https://www.linkedin.com/in/humairakoussar',
+  linkedin: 'https://www.linkedin.com/in/humaira-kousar-50b73b436/',
   instagram: 'https://www.instagram.com/humairakoussar.design',
   avatarImage: '/images/humaira_avatar_1789293107218.jpg',
   designerToolsImage: '/images/designer_3d_tools_1789293124079.jpg',

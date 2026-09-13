@@ -104,7 +104,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
             <p className="text-pink-800">
               Based remotely, working with forward-thinking clients worldwide across USA, UK, Europe, UAE, and Asia.
             </p>
-            <div className="pt-2 flex items-center gap-3">
+            <div className="pt-2 flex flex-wrap items-center gap-2.5">
               <a 
                 href={HUMAIRA_PROFILE.github}
                 target="_blank"
@@ -112,7 +112,16 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
                 className="inline-flex items-center gap-1.5 text-xs font-bold text-neutral-900 bg-white px-3 py-1.5 rounded-full border border-neutral-200 hover:border-neutral-900 transition-colors"
               >
                 <Github className="w-3.5 h-3.5" />
-                <span>GitHub @humairakoussar</span>
+                <span>GitHub</span>
+              </a>
+              <a 
+                href={HUMAIRA_PROFILE.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-700 bg-white px-3 py-1.5 rounded-full border border-neutral-200 hover:border-blue-600 transition-colors"
+              >
+                <Linkedin className="w-3.5 h-3.5 text-blue-600" />
+                <span>LinkedIn</span>
               </a>
             </div>
           </div>
